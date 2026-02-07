@@ -13,3 +13,9 @@ PULSO refines ligand activity quantification by integrating [SIMBA](https://gith
 
 ## Cell-Cell Interaction Analysis
 To reconstruct cell–cell communication networks, PULSO incorporated significant ligand candidates into a [liana](https://github.com/saezlab/liana)-based interaction analysis using [OmniPath](https://omnipathdb.org/ligrec) ligand–receptor annotations. For each major cell type, ligands expressed in sender populations and receptors expressed in corresponding receiver subtypes were evaluated, with significance defined by geometric mean interaction scores at \(P < 0.01\). Network visualization was performed using normalized edge weights to represent cumulative ligand–receptor activity among condition-specific sender–receiver pairs.
+
+## Running Analysis
+See [Documentation and Tutorials]
+
+## Dependencies
+scanpy<br>simba(v1.2)<br>simba_pbg<br>omnipath
