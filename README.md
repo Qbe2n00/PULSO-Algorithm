@@ -7,7 +7,9 @@ PULSO: Predictive Upstream Ligands using Single-cell transcriptOmics
 Although single-cell RNA sequencing (scRNA-seq) has revolutionized our ability to dissect complex biological processes by resolving cell-cell interactions at unprecedented resolution, existing computational frameworks often lose cell-level granularity through bulk aggregation and rely on gene-level inference that is vulnerable to high dropout rates. To overcome these limitations, we developed *PULSO (**P**redictive **U**pstream **L**igands using **S**ingle-cell transcript**O**mics)* — a computational framework that infers upstream ligand signaling activity at the single-cell level directly from transcriptomic profiles.
 
 **PULSO comprises two major components:** ligand activity inference and cell–cell interaction analysis.
+
 In the ligand activity inference module, PULSO constructs a joint cell–gene co-embedding space and computes distances between individual cells and genes, treating these distances as gene importance scores at the single-cell level. These importance scores are then used to infer ligand activity between receiver cells of interest and their putative upstream ligand genes. Ligands predicted to show significantly elevated activity in the specific cell group of interest are selected as candidates.
+
 In the cell–cell interaction analysis module, PULSO uses these candidate ligands together with ligand–receptor databases to quantify interaction strength and identify sender cell populations that are predicted to regulate the receiver cells via these ligands.
 
 ## Ligand Activity Inference
