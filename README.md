@@ -1,4 +1,5 @@
 # PULSO-Algorithm
 PULSO: Predictive Upstream Ligands using Single-cell transcriptOmics
 
-<img width="1125" height="525" alt="PULSO-github" src="https://github.com/user-attachments/assets/be9b61dc-00b0-4d70-a205-65241c046ef6" />
+![PULSO-github](https://github.com/user-attachments/assets/e610cbab-e665-41d0-b948-f4185db72999)
+
