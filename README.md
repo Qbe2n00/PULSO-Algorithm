@@ -18,4 +18,7 @@ To reconstruct cell–cell communication networks, PULSO incorporated significan
 See [Documentation and Tutorials]
 
 ## Dependencies
-scanpy<br>simba(v1.2)<br>simba_pbg<br>omnipath
+- scanpy
+- simba(v1.2)
+- simba_pbg
+- omnipath
